@@ -29,3 +29,36 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To github.com:CU-CSCI3308-Spring2024/Recitation-012-Team-12.git
    fa3be19..5591763  Maddie -> Maddie
 madelinekloud@econ2-198-4-edu Recitation-012-Team-12 % 
+
+
+
+second time: 
+
+git pull
+Updating 34cb962..ead74f5
+Fast-forward
+ main.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\willl\Documents\CSCI\Side\Recitation-012-Team-12> git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\willl\Documents\CSCI\Side\Recitation-012-Team-12> git checkout WillL
+Switched to branch 'WillL'
+Your branch is up to date with 'origin/WillL'.
+PS C:\Users\willl\Documents\CSCI\Side\Recitation-012-Team-12> git merge main
+Auto-merging main.cpp
+CONFLICT (content): Merge conflict in main.cpp
+Automatic merge failed; fix conflicts and then commit the result.
+PS C:\Users\willl\Documents\CSCI\Side\Recitation-012-Team-12> git add main.cpp
+PS C:\Users\willl\Documents\CSCI\Side\Recitation-012-Team-12> git commit -m "merging changes with return value 4"
+[WillL 0202118] merging changes with return value 4
+PS C:\Users\willl\Documents\CSCI\Side\Recitation-012-Team-12> git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 346 bytes | 173.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:CU-CSCI3308-Spring2024/Recitation-012-Team-12.git
+   168f1e2..0202118  WillL -> WillL
